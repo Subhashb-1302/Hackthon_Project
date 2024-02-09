@@ -64,7 +64,7 @@ Selenium
 
 **Screenshots**
 
-- Taking the screenshot after clicking on every dropdown available in the Header of Be.cognizant.
+- Taking the screenshot after displaying the required dropdown and clicking on the webElement.
 
 **How to Run the Tests**
  
