@@ -37,7 +37,7 @@ public class TC04_LoginPage extends BaseClass {
 		System.out.println("Error Message: " + errorMsg);
 		logger.info("Provide the invalid email inorder to get Error message");
 		
-		sa.assertEquals(errorMsg.contains("Google"), "Couldn’t find your Google Account");
+		sa.assertEquals(errorMsg, "Couldnâ€™t find your Google Account");
 		sa.assertAll();
 		logger.info("Validating the error message displayed");
 
